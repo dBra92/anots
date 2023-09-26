@@ -1,3 +1,8 @@
+# CSharp
+	dotnet new mvm -help
+	doetnet new --list
+
+
 #
 # Trader
     F = S.(1 + i) ^ n/m
@@ -1195,14 +1200,24 @@
 
 # MySql and Postgresql on Ubuntu
 ### MYSQL
+
     sudo apt install mysql-server
     sudo mysql_secure_installation
 
+    Erro para ...secure_installation
+    https://stackoverflow.com/questions/72103302/mysql-installation-on-ubuntu-20-04-error-when-using-mysql-secure-installation
+
+    Se aparecer esse erro abaixo:
+    "Failed! Error: SET PASSWORD has no significance for user 'root'@'localhost' as the authentication method used doesn't store authentication data in the MySQL server. Please consider using ALTER USER instead if you want to change authentication parameters.`"
+
+    Use:
+    ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
+
+    e quando for acessar usando 'sudo mysql' e der erro use:
+    sudo mysql -u root -p
+
     # ERROR 1819 (HY000): Your password does not satisfy the current policy requirements
     show global variables like 'validate_password%';
-
-    apos o erro
-    https://stackoverflow.com/questions/72103302/mysql-installation-on-ubuntu-20-04-error-when-using-mysql-secure-installation
 
     ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'mynewpassword';
 
@@ -1234,6 +1249,14 @@
     sudo systemctl stop mysql
     sudo systemctl start mysql
     --------------------------------------------------------
+
+    CREATE USER 'novo_usuário'@'localhost' IDENTIFIED BY 'senha';
+    GRANT ALL PRIVILEGES ON * . * TO 'novo_usuario'@'localhost';
+    FLUSH PRIVILEGES; -- Para que as mudanças tenham efeito, execute imediatamente um flush dos privilégios ao executar o seguinte comando <
+
+    --------------------------------------------------------
+
+
 
     user=developer
     password=1234567
@@ -1632,3 +1655,64 @@
     Themeforest: https://themeforest.net/
     OnePage Love: https://onepagelove.com/
     Call To Idea: http://www.calltoidea.com/
+
+21/09/23
+
+web
+https://developer.mozilla.org/pt-BR/
+https://jwt.io/
+https://blog.saninternet.com/hsts#:~:text=O%20que%20%C3%A9%20HSTS%20(HTTP%20Strict%20Transport%20Security)%3F&text=O%20termo%20significa%20Seguran%C3%A7a%20Restrita,uma%20p%C3%A1gina%20executada%20em%20HTTPS.
+
+Microsoft
+https://learn.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/numeric-conversions
+https://learn.microsoft.com/pt-br/dotnet/core/tools/?tabs=netcore2x
+
+https://www.office.com/?flight=unauthrefresh&auth=1
+https://www.udemy.com/
+https://redis.io/docs/
+https://github.com/
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+https://uk.investing.com/
+https://www.tabnews.com.br/VictorManhani/os-principais-fundamentos-da-programacao
+https://web.autocad.com/acad/me
+https://www.interviewbit.com/blog/html-projects/?amp=1
+https://www.interviewbit.com/blog/c-sharp-projects/?amp=1
+https://freelancer.com.br/
+https://www.manualdocarro.com.br/
+https://www.yamaha-motor.com.br/manuaisecatalogos
+https://www.blender.org/
+https://wiki.freecad.org/Getting_started
+https://developer.mozilla.org/pt-BR/docs/WebAssembly
+
+https://redis.io/docs/
+https://www.yamaha-motor.com.br/manuaisecatalogos
+https://www.manualdocarro.com.br/
+https://www.interviewbit.com/blog/c-sharp-projects/?amp=1
+https://www.interviewbit.com/blog/html-projects/?amp=1
+https://web.autocad.com/acad/me
+https://learn.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions
+https://olhardigital.com.br/2023/08/28/ciencia-e-espaco/yin-yang-quantico-visto-em-experimento-revolucionario/amp/
+https://itforum.com.br/colunas/a-magia-da-computacao-quantica-e-sua-aplicacao-pratica-na-educacao/
+https://universoracionalista.org/um-estado-entre-o-liquido-e-o-solido-pode-ter-sido-encontrado/
+https://futurorelativo.com.br/manipulando-particulas-fisicos-criam/
+https://olhardigital.com.br/2023/08/30/ciencia-e-espaco/novo-robo-minusculo-muda-de-forma-e-cabe-em-espacos-apertados/amp/
+https://olhardigital.com.br/2023/08/30/ciencia-e-espaco/robo-brasileiro-pode-mudar-agricultura-em-grande-escala/amp/
+https://blog.bianch.com.br/dicas-para-estudar-navegacao-aerea/
+https://digitalks.com.br/noticias/os-segredos-do-league-of-legends-para-atrair-clientes-de-maneira-organica/
+https://olhardigital.com.br/2023/09/03/dicas-e-tutoriais/o-que-e-um-software-de-limpeza-de-registro-e-qual-o-melhor-para-voce/amp/
+https://visme.co/blog/pt-br/programa-de-animacao/
+https://ficatranquilo.com.br/
+https://www.revistabula.com/32593-2-manual-pessimista-para-viver-a-vida-segundo-akira-kurosawa/
+https://pt.m.wikipedia.org/wiki/M%C3%A1quina_de_Antic%C3%ADtera
+https://www.tudocelular.com/curiosidade/noticias/n211310/site-do-google-fonts-ganha-novo-design-dando-bom-exemplo-do-material-3-na-web.html
+https://support.google.com/admanager/answer/12270545?hl=pt
+https://universoracionalista.org/cientistas-desenvolveram-uma-maneira-de-saber-se-o-chatgpt-se-torna-consciente-de-si-mesmo/
+https://sempreupdate.com.br/?noamp=mobile&amp=1
+https://semtorrent.com/serie/ted-lasso-2-temporada/
+https://www.anitube.cx/video/276730
+https://animesonline.nz/animes/4-cut-hero/
+https://animefire.vip/animes/street-fighter-ii-v-dublado/15
+https://lib-ubuwfgpjfno267vfpot4wqce.booksc.eu/
+https://www.google.com/search?q=deusa+solar&oq=deusa+solar&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIKCAEQABixAxiABDIMCAIQABhDGLEDGIoFMg0IAxAuGIMBGLEDGIAEMgoIBBAAGLEDGIAEMgcIBRAuGIAEMg0IBhAuGIMBGLEDGIAEMgcIBxAuGIAEMgoICBAuGLEDGIAEMgcICRAuGIAEMgoIChAAGLEDGIAEMgoICxAuGLEDGIAEMgcIDBAAGIAEMg0IDRAuGIMBGLEDGIAEMg0IDhAuGIMBGLEDGIAE0gEIMTYzM2owajmoAgCwAgA&client=ms-android-motorola-rvo3&sourceid=chrome-mobile&ie=UTF-8
+https://www.wappalyzer.com/
+https://betterprogramming.pub/5-vs-code-extensions-for-bash-scripting-da94a6915598
