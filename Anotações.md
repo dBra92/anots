@@ -1,103 +1,37 @@
-# CSharp
-	dotnet new mvm -help
-	doetnet new --list
+# Chinese
+
+	I    you to be To call  USA     What       Person Good
+	我 你    是      叫         美国      什么       人          好
+	wǒ nǐ   shì    jiǎo       měiguó shénme rén       hǎo
 
 
-#
-# Trader
-    F = S.(1 + i) ^ n/m
-    F - Valor do contrato futuro
-    S - Valor do spot(Contrato a vista)
-    i - Taxa de juros(taxa:SELIC)
-    n - dias uteis ate o vencimento
-    m - dias da base(252du -  Dias Uteis)
+	?      This 's  Dad    To like  yī    èr sān China
+	马    这    的 爸爸   喜欢     一   二 三    中国
+	ma  zhè de  bàba  xǐhuān  1    2  3      Zhōngguó
 
-    Ativo a vista
-    Precificação do Ativo Futuro depende da variacao ou da precificacao do ativo a vista
+	Zhè shì wō de bàba - This my dad
 
-    Cambio futuro
-    Taxa de juros nos EUA e no BR
+	Nǐ xǐhuān zhōngguó ma ? - Do you like china?
 
-    Tres leis principais do mercado financeiro
-    1º Lei - Oferta x Demanda
-    Oferta - pressao excessiva
-    Demanda - pressao comprado
+	Zhè shì shénme ? What is it?
 
-    Of > Dem (Cai)
-    Dem > Of(Sobe)
+	Wō de bába xihuan Zhōngguó - My dad likes China
 
+	Wō de bába jiao x - My dad is called x
 
-    Movimentacao de precos se da por um desequilibrio
+	Zhè shì wō bába de - This is my dad's
 
-    Movimento de fluxo
+	Wō bába shì Zhōngguó rén - My dad is Chinese
 
-    -Valor dos contratos
-    Qtd Contratos x Var. pontos x preço do ponto(Ex.: $0,20)
-    Simulação:
-    10 x 150 x 0,20 = 60
-#
-# Linux
+	Nǐ shì Zhōngguó rén ma ? - Are you chinese?
 
-    Espaço ocupado pelo cache
-    du -sh /var/cache/apt/archives
+	Měiguó rén xǐhuān Zhōngguó ma ? Do americans like china?
 
-    Para limpar
-    sudo apt-get clean
+	Nǐ bába xǐhuǎn Zhōngguó ma? -Does you dad like China?
 
-    Remover versoes do kernel nao usados
-    sudo apt-get autoremove --purge
+	Wō xǐhuān nǐ, nǐ  xǐhuān wō ma ? - I like you, do you like me?
 
-    Remover apps antigas e pacotes
-    Lista os programas instalados
-    history | grep "apt-get install"
-
-    Remove os programas/pacotes
-    sudo apt remove APP/PACOTE
-
-#### LPI 1
-    ls mostra os arquivos, nao mostra os ocultos
-    ls -a mostra todos os arquivos incluindo os ocultos.
-    ls -A mostra todos os arquigoa, incluindo ocultoa, mas nak mostra o '.' e '..'
-    ls -i mostra o numerk do inode
-    ls -l detalha os arquivos
-    drwxr-xr-x 11 root root 4096 Fev 15 10:03 usr
-    permissoes do usuario; nº de subdiretorios; proprietario; grupo; tamanho; data; pasta
-    Tipo de arquivo
-    diretorio( 'd' )
-    subdiretorio ou link( 'l' )
-    ls -m em sequencia
-    ls -n mostra o id e gid do diretorio (Zero é o usuario e grupo root)
-    ls -O mostra o proprietario, mas nao o grupo
-    ls -p mostra a pasta com uma barra na frente, dizendo que é um diretorio
-    ls -r ordem inversa
-    ls -h so lista os diretorios. Sempre combinar com outros
-    ls . nesna coisa do ls
-    ls ~ mostra o conteudo do diretorio atual
-    ls </diretorio>
-    ls -lh </diretorio> | less vai dividir o conteudo em paginas, para sair é o 'q'
-    man ls manual
-    Combinar letras (Exemplo)
-    ls -la
-    ls -lh mostra o tamanho dos arquivos de forma legivel para os humanos ler
-    Permissoes
-    drwxr - xr - x
-    d = diretorio
-    - = arquivo comum
-    c = arquivo de caractere
-    b = arquivo de bloco
-    l = link
-    Proprietario Grupo Outros
-    rwx
-    r-x
-    r-x
-    Sempre na ordem
-    r - Read(Leitura)
-    w - Write(Escrita)
-    x - Execution(Execucao)
-    - Sem permissao
-
-#
-## Inglês
+## Inglês[Britânico]
 ###  M0 | V. A. 1
     Introductions | Greetings and Farewells
     Introdução | Saudações e Despedidas
@@ -533,6 +467,129 @@
     Who's you favourite singer?
     My favourite singes is Ozzy Osbourne
 
+# Nodejs
+
+    Instalar o node:
+
+    Versão antiga:
+    sudo apt remove --purge nodejs
+    Deletar nodesource.list
+    cd /etc/apt/sources.list.d/
+    sudo rm -rf nodesource.list
+
+# Blender
+
+	teclas 0 a 9 - Angulo
+	T - Menu lateral esquerda
+	N - Menu lateral direita
+	Z - Opções para redenrizar o objeto
+
+	shift +
+	X - Apagar
+	A - Opçoes
+	S - Opções do mouse
+
+# CSharp
+	dotnet new mvm -help
+	doetnet new --list
+
+
+#
+# Trader
+    F = S.(1 + i) ^ n/m
+    F - Valor do contrato futuro
+    S - Valor do spot(Contrato a vista)
+    i - Taxa de juros(taxa:SELIC)
+    n - dias uteis ate o vencimento
+    m - dias da base(252du -  Dias Uteis)
+
+    Ativo a vista
+    Precificação do Ativo Futuro depende da variacao ou da precificacao do ativo a vista
+
+    Cambio futuro
+    Taxa de juros nos EUA e no BR
+
+    Tres leis principais do mercado financeiro
+    1º Lei - Oferta x Demanda
+    Oferta - pressao excessiva
+    Demanda - pressao comprado
+
+    Of > Dem (Cai)
+    Dem > Of(Sobe)
+
+
+    Movimentacao de precos se da por um desequilibrio
+
+    Movimento de fluxo
+
+    -Valor dos contratos
+    Qtd Contratos x Var. pontos x preço do ponto(Ex.: $0,20)
+    Simulação:
+    10 x 150 x 0,20 = 60
+#
+# Linux
+
+    Espaço ocupado pelo cache
+    du -sh /var/cache/apt/archives
+
+    Para limpar
+
+
+    Remover versoes do kernel nao usados
+    sudo apt-get autoremove --purge
+
+    Remover apps antigas e pacotes
+    Lista os programas instalados
+    history | grep "apt-get install"
+
+    Remove os programas/pacotes
+    sudo apt remove APP/PACOTE
+
+#### LPI 1
+    ls mostra os arquivos, nao mostra os ocultos
+    ls -a mostra todos os arquivos incluindo os ocultos.
+    ls -A mostra todos os arquigoa, incluindo ocultoa, mas nak mostra o '.' e '..'
+    ls -i mostra o numerk do inode
+    ls -l detalha os arquivos
+    drwxr-xr-x 11 root root 4096 Fev 15 10:03 usr
+    permissoes do usuario; nº de subdiretorios; proprietario; grupo; tamanho; data; pasta
+    Tipo de arquivo
+    diretorio( 'd' )
+    subdiretorio ou link( 'l' )
+    ls -m em sequencia
+    ls -n mostra o id e gid do diretorio (Zero é o usuario e grupo root)
+    ls -O mostra o proprietario, mas nao o grupo
+    ls -p mostra a pasta com uma barra na frente, dizendo que é um diretorio
+    ls -r ordem inversa
+    ls -h so lista os diretorios. Sempre combinar com outros
+    ls . nesna coisa do ls
+    ls ~ mostra o conteudo do diretorio atual
+    ls </diretorio>
+    ls -lh </diretorio> | less vai dividir o conteudo em paginas, para sair é o 'q'
+    man ls manual
+    Combinar letras (Exemplo)
+    ls -la
+    ls -lh mostra o tamanho dos arquivos de forma legivel para os humanos ler
+    Permissoes
+    drwxr - xr - x
+    d = diretorio
+    - = arquivo comum
+    c = arquivo de caractere
+    b = arquivo de bloco
+    l = link
+    Proprietario Grupo Outros
+    rwx
+    r-x
+    r-x
+    Sempre na ordem
+    r - Read(Leitura)
+    w - Write(Escrita)
+    x - Execution(Execucao)
+    - Sem permissao
+
+#
+
+
 #
 # JavaScript
 
@@ -560,11 +617,6 @@
     // Não utilize var, utilize const
     // Sempre inicializar a const
     // Js é tipagem dinamica
-
-
-
-
-
 
 #
 # Git / Github
