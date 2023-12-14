@@ -533,7 +533,7 @@
     du -sh /var/cache/apt/archives
 
     Para limpar
-
+    sudo apt-get clean
 
     Remover versoes do kernel nao usados
     sudo apt-get autoremove --purge
